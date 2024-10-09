@@ -1,0 +1,194 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: white;
+    color: black;
+}
+
+header .profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Navigation Bar */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #444;
+    padding: 10px 0;
+    margin-left:4%;
+    margin-right:4%;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 5px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: lightgray;
+    color: black;
+    margin: 3px 0;
+    padding: -50px;
+    display:inline-block;
+    width:100%;
+}
+#achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+#achievements ul li {
+    background-color: lightgray;
+    color: black;
+    margin: 3px 0;
+    padding: -50px;
+    display:inline-block;
+    width:100%;
+}
+#experience p {
+    padding: 0;
+}
+
+#experience p {
+    background-color: lightgray;
+    color: black;
+    margin: 0.5px;
+    padding: -50px;
+    display:inline-block;
+    width:100%;
+}
+.dag{
+    width: 4px; height: 40px; background-color: black;
+    display:inline-block;
+    margin-right: 10px; 
+    margin-left:-2px;
+    vertical-align: middle; 
+}
+.dag2{
+    width: 4px; height: 50px; background-color: black;
+    display:inline-block; 
+    margin-right:1px;
+    margin-left:-2px;
+    vertical-align: middle; 
+}
+.job2 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+.p2 {
+    margin: 0;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #333; 
+}
+/* Experience and Education Section */
+.job, table {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction:column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: gray;;
+    margin-top: 40px;
+}
