@@ -1,0 +1,161 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(49, 46, 46);
+    height: 55px;
+    width: 99.79%; 
+    padding-left: 3px;
+}
+
+.container img {
+    height: 50px;
+    width: 50px; 
+}
+
+.container div {
+    color: white;
+}
+
+.contact-info {
+    color: white;
+    margin-left: 810px;
+}
+
+nav {
+    background-color: #444;
+    width: 100%; 
+    height: 30px;
+    margin-top: -15.6px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container2 {
+    background-color: red;
+    width: 100%;
+    padding: 20px 0 5%;
+}
+
+.hello h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.para p {
+    margin: 0;
+    padding-bottom: 10%;
+}
+.container2 button{
+    color:red;
+    padding-top:3px;
+    padding-bottom:3px;
+    cursor:pointer;
+    border:none;
+    margin-top:20px;
+}
+ .container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+    padding: 20px;
+    margin-left:7%;
+    margin-right:7%;
+}
+
+.container3 p {
+    margin: 0;
+    font-weight: bold;
+}
+.samep{
+    color:black;
+    padding:0px 0px 1px 10px;
+    font-weight: bold;
+}
+footer {
+    height: 30px;
+    color: white;
+    background-color: rgb(49, 46, 46);
+    margin-top: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.container4 {
+    padding-bottom:20px;
+    background-color:#faf5f5;
+    margin-bottom:10px;
+}
+.cards{
+    width:15%;
+    display:inline-block;
+    justify-content:space-between;
+    align-items: center;
+    margin:30px 5px 10px 10px;
+    border-radius:5px;
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px  black;
+}
+
+.image img {
+    padding: 0;
+    margin: 0;
+    height:200px;
+    width:100%;
+    padding:15px;
+}
+
+.productname h5 {
+    padding: 0;
+    margin: 0;
+}
+.productname h5{
+    text-align: center;
+}
+.price h6 {
+    padding: 0;
+    margin: 0;
+}
+.price h6{
+    text-align: center;
+}
+
+.container4 button {
+    padding: 0;
+    margin: 0;
+}
+input[type="button"]{
+    color:white;
+    width:90px;
+    height:30px;
+    margin-top:10px;
+    cursor:pointer;
+    background-color: red;
+    border:none;
+}
